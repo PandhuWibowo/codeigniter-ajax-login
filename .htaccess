@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /CruDAjaX/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+#for only frost bd
+## activate RewriteEngine
+#RewriteEngine on
+#
+## delete index.php from URL
+#RewriteCond $1 !(index\.php|robots\.txt|humans\.txt|license\.txt|sitemap\.xml|assets)
+#RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+#
+#RewriteEngine on
+#RewriteCond $1 !(index\.php|robots\.txt|humans\.txt|license\.txt|sitemap\.xml|assets)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
