@@ -73,9 +73,14 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 Details about project
 ***************
 In this project create a ajax login & ajax crud with server side jquery dataTable that means<br>
-you can add edit update delete all function are work with ajax without any page load.<br>
-For Demo:<br>
-http://mustafiz.info/ci-crud/ <br>
-Username: admin <br>
-Password: 2345 <br>
+you can add edit update delete all function are work with ajax without any page load.
+
+For Demo:
+
+http://mustafiz.info/ci-crud/ 
+
+Username: admin 
+
+Password: 2345 
+
 HaPPy cODiNg !
