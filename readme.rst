@@ -77,7 +77,7 @@ you can add edit update delete all function are work with ajax without any page 
 
 For Demo:
 
-http://mustafiz.info/ci-crud/ 
+http://mustafizbd.info/ci-crud/ 
 
 Username: admin 
 
